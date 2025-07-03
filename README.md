@@ -19,7 +19,7 @@ This repository features an interactive Tableau dashboard template designed to a
 View and interact with the live dashboard on Tableau Public:  
 [**Customer Churn Dashboard**](https://public.tableau.com/app/profile/christopher.chan1086/viz/CustomChurnTemplate/ChurnDashboardTemplate2)
 
-![Dashboard Screenshot](images/customer_churn_template.png)
+![Customer Churn Dashboard](images/customer%20churn%20dashboard.PNG)
 
 ---
 
