@@ -42,4 +42,4 @@ View and interact with the live dashboard on Tableau Public:
 ## About
 
 Created by Christopher Chan.  
-For questions or feedback, please open an issue or connect with me on [LinkedIn]([https://www.linkedin.com/in/your-linkedin/](https://www.linkedin.com/in/christopher-chan-sbu/)).
+For questions or feedback, please open an issue or connect with me on [LinkedIn](https://www.linkedin.com/in/christopher-chan-sbu/).
