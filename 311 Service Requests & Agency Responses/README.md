@@ -5,7 +5,7 @@ An end-to-end machine learning and civic analytics project predicting whether NY
 **Collaborators:** Christopher Chan, Lincon Chopra, Nino Alishvili, Rojina Dhikari  
 **Course Project:** CIS 9660 | Zicklin School of Business, Baruch College  
 **Dataset:** [NYC Open Data - 311 Service Requests (2020 to Present)](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-Present/erm2-nwe9/about_data)  
-**Deliverables:** [📄 Download Presentation Deck (PPTX)](./CIS%209660%20Presentation%20(4).pptx)
+**Deliverables:** [📄 Download Presentation Deck (PPTX)]([./311 Service Requests & Agency Responses/CIS 9660 Presentation.pptx](https://github.com/CChan101/My-Data-Portfolio/blob/main/311%20Service%20Requests%20%26%20Agency%20Responses/CIS%209660%20Presentation.pptx))
 
 ---
 
@@ -54,6 +54,7 @@ Analysis of closure velocity across the five boroughs revealed distinct geograph
 | **Manhattan** | **76.57%** | Dense commercial and infrastructure load slowing response |
 
 ![Closure Rate by Borough](assets/borough_closure_rates.png)
+
 
 ### 3. Complaint Type Resolution Velocity
 Resolution rates are heavily polarized based on the nature of municipal intervention:
