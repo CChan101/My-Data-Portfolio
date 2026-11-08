@@ -16,22 +16,22 @@ An exploratory data analysis and data engineering pipeline evaluating quality-of
 
 ## 📌 Executive Summary
 
-Metropolitan areas attract top-tier talent and capital, yet everyday living conditions vary significantly based on municipal geography, transit infrastructure, and economic structure[cite: 2]. This project integrates multi-source census, civic, and real estate data to evaluate the trade-offs of living in three major U.S. economic hubs: **New York City, Boston, and San Francisco**[cite: 2].
+Metropolitan areas attract top-tier talent and capital, yet everyday living conditions vary significantly based on municipal geography, transit infrastructure, and economic structure. This project integrates multi-source census, civic, and real estate data to evaluate the trade-offs of living in three major U.S. economic hubs: **New York City, Boston, and San Francisco**.
 
-Rather than relying on single aggregate livability rankings, we built a Python-driven data pipeline to normalize disparate datasets from **DataUSA, the U.S. Census Bureau (ACS), Zillow, and public health portals (Kaiser, CityHealth Dashboard, NYC EH Portal)**[cite: 2].
+Rather than relying on single aggregate livability rankings, we built a Python-driven data pipeline to normalize disparate datasets from **DataUSA, the U.S. Census Bureau (ACS), Zillow, and public health portals (Kaiser, CityHealth Dashboard, NYC EH Portal)**.
 
 ### 🔑 Key Comparative Findings (2023)
 
 | Metric | New York City | Boston | San Francisco | Key Takeaway |
 | :--- | :---: | :---: | :---: | :--- |
-| **Median Home Price** | $634,912 | $656,954 | **$1,100,417** | SF homes cost 67% more than Boston/NYC[cite: 2]. |
-| **Median Household Income** | $82,037 | $92,560 | **$143,531** | SF incomes partially offset extreme housing prices[cite: 2]. |
-| **Price-to-Income Ratio** | **7.74x** | 7.10x | 7.67x | NYC and SF place the heaviest cost burden on residents[cite: 2]. |
-| **Public Transit Mode Share** | **45.55%** | 24.03% | 21.42% | NYC transit dependency is double its peer cities[cite: 2]. |
-| **Remote Work (WFH) Share** | 15.03% | 18.78% | **27.46%** | SF tech density drives post-pandemic WFH retention[cite: 2]. |
-| **Commutes >35 Minutes** | **>50%** | Moderate | Moderate | Geographic scale (>300 sq mi) drives long NYC commutes[cite: 2]. |
-| **Insured Population Rate** | 86.69% | **98.27%** | 95.90% | MA healthcare mandates drive near-universal coverage in Boston[cite: 2]. |
-| **Bachelor's Degree+ (25+)** | 32.10% | 49.70% | **60.10%** | SF leads in high-skill human capital concentration[cite: 2]. |
+| **Median Home Price** | $634,912 | $656,954 | **$1,100,417** | SF homes cost 67% more than Boston/NYC. |
+| **Median Household Income** | $82,037 | $92,560 | **$143,531** | SF incomes partially offset extreme housing prices. |
+| **Price-to-Income Ratio** | **7.74x** | 7.10x | 7.67x | NYC and SF place the heaviest cost burden on residents. |
+| **Public Transit Mode Share** | **45.55%** | 24.03% | 21.42% | NYC transit dependency is double its peer cities. |
+| **Remote Work (WFH) Share** | 15.03% | 18.78% | **27.46%** | SF tech density drives post-pandemic WFH retention. |
+| **Commutes >35 Minutes** | **>50%** | Moderate | Moderate | Geographic scale (>300 sq mi) drives long NYC commutes. |
+| **Insured Population Rate** | 86.69% | **98.27%** | 95.90% | MA healthcare mandates drive near-universal coverage in Boston. |
+| **Bachelor's Degree+ (25+)** | 32.10% | 49.70% | **60.10%** | SF leads in high-skill human capital concentration. |
 
 ---
 
