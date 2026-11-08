@@ -1,5 +1,7 @@
 # NYC DDC: BidScope Procurement Data Pipeline & Report Automation
 
+> **Note on Data Files:** Raw BidScope CSV exports and PDF bid tabs are omitted from this repository due to proprietary municipal workflow sourcing. The repository showcases the underlying ETL architecture, data parsing logic, and programmatic Excel transformation script.
+
 An end-to-end Python ETL automation tool developed for the New York City Department of Design and Construction (NYC DDC) to streamline capital project procurement analytics, eliminate manual data entry, and automate weekly bid tabulation reporting.
 
 **Agency:** New York City Department of Design and Construction (NYC DDC)  
