@@ -93,22 +93,3 @@ Rather than relying on single aggregate livability rankings, we built a Python-d
 
 ---
 
-## 📂 Repository Structure
-
-```text
-Urban-Quality-of-Life-Analysis/
-├── README.md                                  <- Executive case study and comparative analysis
-├── CIS 9650 Final Project Report.docx         <- Complete written research report
-├── assets/                                    <- Exported visualization graphics
-│   ├── housing_price_vs_median_income.png     <- Income vs. Zillow home price chart
-│   ├── transportation_modes_2023.png          <- Commuting mode share comparison
-│   ├── commute_time_distribution.png          <- Commute travel time distribution
-│   ├── aggregate_insured_rates.png            <- Citywide insured population rates
-│   ├── insured_rates_by_age.png               <- Age cohort insurance trends (2020-2023)
-│   └── educational_attainment.png             <- Bachelor's degree attainment comparison
-├── notebooks/                                 <- Jupyter notebooks for pipeline stages
-│   ├── 01_data_cleaning_and_alignment.ipynb
-│   ├── 02_commute_and_transit_analysis.ipynb
-│   ├── 03_health_insurance_trends.ipynb
-│   └── 04_housing_income_education.ipynb
-└── data/                                      <- Standardized CSV data inputs
