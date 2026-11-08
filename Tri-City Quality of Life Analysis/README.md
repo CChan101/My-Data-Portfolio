@@ -2,13 +2,13 @@
 
 An exploratory data analysis and data engineering pipeline evaluating quality-of-life trade-offs across New York City, Boston, and San Francisco across four core pillars: housing affordability, transit dynamics, health insurance coverage, and educational attainment[cite: 2].
 
-**Course Project:** CIS 9650 (Programming for Analytics) | Zicklin School of Business, Baruch College[cite: 2]  
-**Team:** QUALITY SQUAD (Group 11)[cite: 3]  
+**Course Project:** CIS 9650 (Programming for Analytics) | Zicklin School of Business, Baruch College 
+**Team:** QUALITY SQUAD (Group 11)  
 **Roles & Contributors:**
-* **Christopher Chan** – Technical Lead (Health Insurance Analysis & Code Architecture)[cite: 3]
-* **Eleni Asfaw** – Process Manager (Commute Patterns & Travel Time Distribution)[cite: 3]
-* **Paolo Pagnozzi** – Communication Manager (Educational Attainment Analysis)[cite: 3]
-* **Zhenfang Liu** – Communication Manager (Housing Affordability & Income Analysis)[cite: 3]
+* **Christopher Chan** 
+* **Eleni Asfaw**
+* **Paolo Pagnozzi** 
+* **Zhenfang Liu** 
 
 **Deliverables:** [📄 Download Full Final Project Report (DOCX)](./CIS%209650%20Final%20Project%20Report.docx)
 
@@ -38,32 +38,32 @@ Rather than relying on single aggregate livability rankings, we built a Python-d
 ## 🔍 Deep-Dive Findings & Visualizations
 
 ### 1. Housing Affordability vs. Median Income
-* **Income-to-Price Divergence:** In all three cities, home prices significantly outstrip annual household earnings[cite: 2]. 
-* **The Affordability Squeeze:** While San Francisco records the highest nominal home price ($1,100,417), its high median income ($143,531) creates an income-to-price multiple (7.67x) comparable to NYC (7.74x), where lower median earnings ($82,037) collide with high urban real estate values[cite: 2]. Boston offers the lowest multiple at 7.10x[cite: 2].
+* **Income-to-Price Divergence:** In all three cities, home prices significantly outstrip annual household earnings. 
+* **The Affordability Squeeze:** While San Francisco records the highest nominal home price ($1,100,417), its high median income ($143,531) creates an income-to-price multiple (7.67x) comparable to NYC (7.74x), where lower median earnings ($82,037) collide with high urban real estate values. Boston offers the lowest multiple at 7.10x.
 
 <p align="center">
-  <img src="assets/housing_price_vs_median_income.png" alt="Housing Price vs Median Income" width="750"/>
+  <img src="./assets/housing_price_vs_median_income.png" alt="Housing Price vs Median Income" width="750"/>
 </p>
 
 ### 2. Commuter Mode Share & Travel Time Penalties
-* **Transit Dominance vs. Remote Work:** NYC commuters rely predominantly on public transit (45.55%), whereas Boston leads in single-occupancy driving (34.08%) and walking/biking (15.91%)[cite: 2]. San Francisco leads in remote work adaptation at 27.46%[cite: 2].
-* **Commute Duration Penalty:** NYC residents experience severe commute penalties: over 18% travel between 60–89 minutes daily, driven by the city’s vast geographic footprint (>300 sq. miles vs. Boston's 89.6 sq. miles and San Francisco's 46.89 sq. miles)[cite: 2].
+* **Transit Dominance vs. Remote Work:** NYC commuters rely predominantly on public transit (45.55%), whereas Boston leads in single-occupancy driving (34.08%) and walking/biking (15.91%). San Francisco leads in remote work adaptation at 27.46%.
+* **Commute Duration Penalty:** NYC residents experience severe commute penalties: over 18% travel between 60–89 minutes daily, driven by the city’s vast geographic footprint (>300 sq. miles vs. Boston's 89.6 sq. miles and San Francisco's 46.89 sq. miles).
 
 | Transportation Mode Share (2023) | Commute Time Distribution vs. National Benchmark |
 | :---: | :---: |
-| <img src="assets/transportation_modes_2023.png" alt="Transportation Modes 2023" width="450"/> | <img src="assets/commute_time_distribution.png" alt="Commute Time Distribution" width="450"/> |
+| <img src="assets/transportation_modes_2023.png" alt="Transportation Modes 2023" width="450"/> | <img src="assets/avg_commute_time.png" alt="Commute Time Distribution" width="450"/> |
 
 ### 3. Health Insurance Coverage Disparities (2020–2023)
-* **Coverage Floor:** Boston maintains the highest aggregate insured rate at 98.27%, supported by robust state-level health mandates, followed by San Francisco at 95.90%[cite: 2]. New York City trails at 86.69%[cite: 2].
-* **Demographic Stability:** Coverage across all three cities remained remarkably stable across the 2020–2023 period, with minor variations driven primarily by public vs. private payer splits and specific age-bracket coverage gaps rather than macro annual shifts[cite: 2].
+* **Coverage Floor:** Boston maintains the highest aggregate insured rate at 98.27%, supported by robust state-level health mandates, followed by San Francisco at 95.90%. New York City trails at 86.69%.
+* **Demographic Stability:** Coverage across all three cities remained remarkably stable across the 2020–2023 period, with minor variations driven primarily by public vs. private payer splits and specific age-bracket coverage gaps rather than macro annual shifts.
 
 | Aggregate Insured Rates | Insured Coverage by Age Group Over Time |
 | :---: | :---: |
-| <img src="assets/aggregate_insured_rates.png" alt="Aggregate Insured Rates" width="450"/> | <img src="assets/insured_rates_by_age.png" alt="Insured Rates by Age" width="450"/> |
+| <img src="assets/agg_insured_rate.png" alt="Aggregate Insured Rates" width="450"/> | <img src="assets/insured_by_age.png" alt="Insured Rates by Age" width="450"/> |
 
 ### 4. Educational Attainment Polarization
-* **Human Capital Concentration:** 60.1% of San Francisco adults (age 25+) hold a bachelor’s degree or higher, followed by Boston at 49.7%[cite: 2].
-* **Borough Heterogeneity:** New York City’s population-weighted rate sits at 32.1%[cite: 2]. While specific Manhattan neighborhoods mirror or exceed San Francisco levels, outer-borough demographics reflect a broader, more socio-economically diverse working-class base[cite: 2, 3].
+* **Human Capital Concentration:** 60.1% of San Francisco adults (age 25+) hold a bachelor’s degree or higher, followed by Boston at 49.7%.
+* **Borough Heterogeneity:** New York City’s population-weighted rate sits at 32.1%. While specific Manhattan neighborhoods mirror or exceed San Francisco levels, outer-borough demographics reflect a broader, more socio-economically diverse working-class base.
 
 <p align="center">
   <img src="assets/educational_attainment.png" alt="Educational Attainment" width="600"/>
@@ -74,23 +74,23 @@ Rather than relying on single aggregate livability rankings, we built a Python-d
 ## 🛠️ Data Engineering & Methodological Challenges
 
 1. **Scope Refinement (10 Cities $\rightarrow$ 3 Cities):**  
-   Initial proposals targeted 10 metropolitan areas across 6 indicators[cite: 2, 3]. Data audits revealed severe temporal misalignments, disparate survey margins of error, and missing metrics in municipal open data portals[cite: 2, 3]. We refined the project scope to NYC, Boston, and San Francisco across 4 standardized indicators to ensure methodological integrity[cite: 2, 3].
+   Initial proposals targeted 10 metropolitan areas across 6 indicators. Data audits revealed severe temporal misalignments, disparate survey margins of error, and missing metrics in municipal open data portals. We refined the project scope to NYC, Boston, and San Francisco across 4 standardized indicators to ensure methodological integrity.
 2. **Disparate Sourcing & Schema Alignment:**  
-   Merged disparate data structures from the **U.S. Census Bureau ACS DP02**, **Zillow Home Value Index (ZHVI)**, and **Kaiser Family Foundation / CityHealth Dashboard**[cite: 2, 3]. Standardized reporting periods to 2020–2023 and harmonized geographic FIPS / NTA naming conventions[cite: 2, 3].
+   Merged disparate data structures from the **U.S. Census Bureau ACS DP02**, **Zillow Home Value Index (ZHVI)**, and **Kaiser Family Foundation / CityHealth Dashboard**. Standardized reporting periods to 2020–2023 and harmonized geographic FIPS / NTA naming conventions.
 3. **NYC Population-Weighted Averages:**  
-   Because NYC educational and commute data were reported across disparate Neighborhood Tabulation Areas (NTAs) and five separate county/borough records, simple arithmetic means would skew results[cite: 2, 3]. We engineered population-weighted transformations to reflect true citywide aggregates for fair comparisons against Boston and San Francisco[cite: 2].
+   Because NYC educational and commute data were reported across disparate Neighborhood Tabulation Areas (NTAs) and five separate county/borough records, simple arithmetic means would skew results. We engineered population-weighted transformations to reflect true citywide aggregates for fair comparisons against Boston and San Francisco.
 4. **Reshaping & Feature Engineering:**  
-   Converted wide-format census matrices (e.g., 781 columns in ACS files) into long-format relational tables[cite: 3], computed relative mode shares, and engineered an `Insured Share` metric ($100 - \text{Uninsured}\%$) across age cohorts[cite: 2].
+   Converted wide-format census matrices (e.g., 781 columns in ACS files) into long-format relational tables, computed relative mode shares, and engineered an `Insured Share` metric ($100 - \text{Uninsured}\%$) across age cohorts.
 
 ---
 
 ## 💻 Tech Stack & Tools
 
-* **Core Language:** Python 3.x[cite: 2]
-* **Data Manipulation:** `pandas`, `numpy`[cite: 2]
-* **Visualization:** `matplotlib`, `seaborn`[cite: 2]
-* **Development Environment:** Google Colab, Jupyter Notebooks[cite: 2]
-* **Data Sources:** U.S. Census Bureau ACS (5-Year Estimates), DataUSA.io, Zillow Research (ZHVI), Kaiser Family Foundation, NYC Open Data[cite: 2, 3]
+* **Core Language:** Python 3.x
+* **Data Manipulation:** `pandas`, `numpy`
+* **Visualization:** `matplotlib`, `seaborn`
+* **Development Environment:** Google Colab, Jupyter Notebooks
+* **Data Sources:** U.S. Census Bureau ACS (5-Year Estimates), DataUSA.io, Zillow Research (ZHVI), Kaiser Family Foundation, NYC Open Data
 
 ---
 
