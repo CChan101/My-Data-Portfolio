@@ -1,6 +1,6 @@
 # Comparative Urban Quality of Life Analysis: NYC, Boston & San Francisco
 
-An exploratory data analysis and data engineering pipeline evaluating quality-of-life trade-offs across New York City, Boston, and San Francisco across four core pillars: housing affordability, transit dynamics, health insurance coverage, and educational attainment[cite: 2].
+An exploratory data analysis and data engineering pipeline evaluating quality-of-life trade-offs across New York City, Boston, and San Francisco across four core pillars: housing affordability, transit dynamics, health insurance coverage, and educational attainment.
 
 **Course Project:** CIS 9650 (Programming for Analytics) | Zicklin School of Business, Baruch College 
 **Team:** QUALITY SQUAD (Group 11)  
