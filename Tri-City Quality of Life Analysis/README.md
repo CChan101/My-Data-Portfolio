@@ -28,7 +28,6 @@ Rather than relying on single aggregate livability rankings, we built a Python-d
 | **Median Household Income** | $82,037 | $92,560 | **$143,531** | SF incomes partially offset extreme housing prices. |
 | **Price-to-Income Ratio** | **7.74x** | 7.10x | 7.67x | NYC and SF place the heaviest cost burden on residents. |
 | **Public Transit Mode Share** | **45.55%** | 24.03% | 21.42% | NYC transit dependency is double its peer cities. |
-| **Remote Work (WFH) Share** | 15.03% | 18.78% | **27.46%** | SF tech density drives post-pandemic WFH retention. |
 | **Commutes >35 Minutes** | **>50%** | Moderate | Moderate | Geographic scale (>300 sq mi) drives long NYC commutes. |
 | **Insured Population Rate** | 86.69% | **98.27%** | 95.90% | MA healthcare mandates drive near-universal coverage in Boston. |
 | **Bachelor's Degree+ (25+)** | 32.10% | 49.70% | **60.10%** | SF leads in high-skill human capital concentration. |
