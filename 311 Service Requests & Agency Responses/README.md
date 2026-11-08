@@ -52,7 +52,7 @@ Analysis of closure velocity across the five boroughs revealed distinct geograph
 | **Bronx** | **77.69%** | Disproportionate volume of complex housing inspections |
 | **Manhattan** | **76.57%** | Dense commercial and infrastructure load slowing response |
 
-![Closure Rate by Borough](assets/borough_closure_rates.png)
+![Closure Rate by Borough](<assets/borough closure rates.png>)
 
 
 ### 3. Complaint Type Resolution Velocity
@@ -60,7 +60,7 @@ Resolution rates are heavily polarized based on the nature of municipal interven
 * **Rapid Turnaround (~95–100%):** Illegal Parking, Blocked Driveway, Noise (Street/Sidewalk, Residential), Heat/Hot Water, Traffic Signal Condition.
 * **Severe Turnaround Lag (<50%):** Street Condition (72%), Plumbing (40.5%), and Unsanitary Living Conditions (25.3%).
 
-![Top Complaints vs Closure Rate](assets/complaint_type_rates.png)
+![Top Complaints vs Closure Rate](<assets/top complaints vs closure rate.png>)
 
 ---
 
@@ -84,7 +84,7 @@ Evaluating probability distributions across test samples revealed sharp differen
 
 | Predicted Probability Distribution | Class Prediction Volume |
 | :---: | :---: |
-| ![Probability Distribution](assets/predicted_probabilities.png) | ![Prediction Counts](assets/predicted_outcomes.png) |
+| ![Probability Distribution](<assets/probability distribution.png>) | ![Prediction Counts](<assets/prediction count.png>) |
 
 ---
 
