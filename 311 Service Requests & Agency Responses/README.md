@@ -40,8 +40,7 @@ Data was sourced directly via the **NYC Open Data Socrata API**, spanning closed
 ### 1. Agency Workload vs. Resolution Efficiency
 Agency workload does not strictly dictate closure velocity. High-volume agencies like the NYPD process hundreds of thousands of tickets with near-100% 7-day turnaround due to rapid on-site inspection workflows. In contrast, agencies dealing with complex physical inspections (e.g., HPD, DOB, DCWP) exhibit marked resolution bottlenecks despite moderate ticket volume.
 
-![Agency Workload vs Efficiency](assets/agency_workload_efficiency.png)
-
+![Agency Workload vs Efficiency](<assets/Agency Workload vs Efficiency.png>)
 ### 2. Resolution Performance by Borough
 Analysis of closure velocity across the five boroughs revealed distinct geographic tiers:
 
